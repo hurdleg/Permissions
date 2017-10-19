@@ -38,17 +38,4 @@ public class MyService extends IntentService {
                 LocalBroadcastManager.getInstance(getApplicationContext());
         manager.sendBroadcast(messageIntent);
     }
-
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        Log.i(TAG, "onCreate");
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.i(TAG, "onDestroy");
-    }
-
 }
