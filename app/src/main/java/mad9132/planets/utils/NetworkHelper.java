@@ -23,6 +23,5 @@ public class NetworkHelper {
             e.printStackTrace();
             return false;
         }
-
     }
 }
